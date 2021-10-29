@@ -1,0 +1,13 @@
+
+*.targets
+*.props
+*.json
+*.cache
+*.pdb
+*.editorconfig
+*.dll
+*.txt
+obj/Debug/net5.0/Risolutore Equazioni.AssemblyInfo.cs
+obj/Debug/net5.0/apphost.exe
+obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+bin/Debug/net5.0/Risolutore Equazioni.exe
