@@ -72,9 +72,6 @@ namespace Risolutore_Equazioni
             int numA, denA, numB, denB, numC, denC;
             numA = denA = numB = denB = numC = denC = 0;
 
-            //int[] dens = {Convert.ToInt32(denA), Convert.ToInt32(denB), Convert.ToInt32(denC};
-            //float[] dens = {denA, denB, denC};
-
             // SPLIT FRACTIONS
             if (a.Contains('/'))
             {
@@ -143,5 +140,49 @@ namespace Risolutore_Equazioni
             return dividers;
         }
 
+        public static int CalcoloMCM(int denA, int denB, int denC)
+        {
+            Dictionary<int, int> potenze = new();
+
+            List<int> kA = DecompositionPrime(denA);
+            List<int> kB = DecompositionPrime(denB);
+            List<int> kC = DecompositionPrime(denC);
+
+            foreach (int divider in kA)
+            {
+                if (!potenze.ContainsKey(divider))
+                {
+                    potenze.Add(divider, 0);
+                }
+                else
+                {
+                    continue;
+                }
+            }
+
+            foreach (int divider in kB)
+            {
+                if (!potenze.ContainsKey(divider))
+                {
+                    potenze.Add(divider, 0);
+                }
+                else
+                {
+                    continue;
+                }
+            }
+
+            foreach (int divider in kC)
+            {
+                if (!potenze.ContainsKey(divider))
+                {
+                    potenze.Add(divider, 0);
+                }
+                else
+                {
+                    continue;
+                }
+            }
+        }
     }
 }
