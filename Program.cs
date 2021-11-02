@@ -140,7 +140,7 @@ namespace Risolutore_Equazioni
             return dividers;
         }
 
-        public static int CalcoloMCM(int denA, int denB, int denC)
+        public static Dictionary<int, int> CalcoloMCM(int denA, int denB, int denC)
         {
             Dictionary<int, int> potenze = new();
 
@@ -148,15 +148,20 @@ namespace Risolutore_Equazioni
             List<int> kB = DecompositionPrime(denB);
             List<int> kC = DecompositionPrime(denC);
 
+            int c1 = 0;
+            int c2 = 0;
+            int c3 = 0;
+
             foreach (int divider in kA)
             {
                 if (!potenze.ContainsKey(divider))
                 {
-                    potenze.Add(divider, 0);
+                    potenze.Add(divider, 1);
                 }
                 else
                 {
-                    continue;
+                    potenze.TryGetValue(divider, out c1);
+                    potenze[divider] = c1 + 1;
                 }
             }
 
@@ -164,11 +169,12 @@ namespace Risolutore_Equazioni
             {
                 if (!potenze.ContainsKey(divider))
                 {
-                    potenze.Add(divider, 0);
+                    potenze.Add(divider, 1);
                 }
                 else
                 {
-                    continue;
+                    potenze.TryGetValue(divider, out c2);
+                    potenze[divider] = c2 + 1;
                 }
             }
 
@@ -176,13 +182,16 @@ namespace Risolutore_Equazioni
             {
                 if (!potenze.ContainsKey(divider))
                 {
-                    potenze.Add(divider, 0);
+                    potenze.Add(divider, 1);
                 }
                 else
                 {
-                    continue;
+                    potenze.TryGetValue(divider, out c3);
+                    potenze[divider] = c3 + 1;
                 }
             }
+
+            return potenze;
         }
     }
 }
