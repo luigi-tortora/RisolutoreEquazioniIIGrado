@@ -1,0 +1,16 @@
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\bin\Debug\net5.0\IsAAAc.exe
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\bin\Debug\net5.0\IsAAAc.deps.json
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\bin\Debug\net5.0\IsAAAc.runtimeconfig.json
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\bin\Debug\net5.0\IsAAAc.runtimeconfig.dev.json
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\bin\Debug\net5.0\IsAAAc.dll
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\bin\Debug\net5.0\ref\IsAAAc.dll
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\bin\Debug\net5.0\IsAAAc.pdb
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\IsAAAc.csprojAssemblyReference.cache
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\IsAAAc.GeneratedMSBuildEditorConfig.editorconfig
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\IsAAAc.AssemblyInfoInputs.cache
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\IsAAAc.AssemblyInfo.cs
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\IsAAAc.csproj.CoreCompileInputs.cache
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\IsAAAc.dll
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\ref\IsAAAc.dll
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\IsAAAc.pdb
+F:\GRAFICA\x luigi\C#\Progetto IsAAAc\IsAAAc\obj\Debug\net5.0\IsAAAc.genruntimeconfig.cache
